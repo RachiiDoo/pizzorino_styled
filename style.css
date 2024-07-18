@@ -1,0 +1,164 @@
+/* General styles */
+body {
+  font-family: "helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Darkish color */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
+}
+
+header .logo h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
+
+nav ul li {
+  /* margin-left: 20px; */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.logo-img {
+  width: 15%;
+}
+
+/* Section styles */
+section {
+  padding: 20px 50px;
+}
+
+#presentation {
+  background-color: #f0f0f0; /* Light color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about {
+  background-color: #e0e0e0; /* Another light color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#recipes {
+  background-color: #f0f0f0; /* Repeat light color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact {
+  background-color: #e0e0e0; /* Repeat another light color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 40%;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+/* Image styles */
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input,
+form button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+
+form button {
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: darkorange;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer .social-media a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .social-media a:hover {
+  text-decoration: underline;
+}
